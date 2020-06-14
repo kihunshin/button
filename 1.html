@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>주식 초보자를 위한 지침서</title>
+  </head>
+  <body>
+    <h1><a>연말 배당주를 노려라</a></h1>
+    <input id="night_day" type="button" value="이게뭔데?" onclick="
+    var target = document.querySelector('body');
+    if(this.value === '이게뭔데?'){
+      target.textContext = '${target.textContext} 배당주에 관한 내용' ;
+      target.style.backgroundColor = 'black' ;
+      target.style.color = 'white' ;
+      this.value = '쉽지않네';
+
+      var alist = document.querySelectorAll('a');
+      var i = 0;
+      while(i < alist.length){
+        alist[i].style.color ='powderblue';
+        i = i + 1;
+    }
+  } else {
+      target.style.backgroundColor = 'white';
+      target.style.color ='black';
+      this.value='이게뭔데?';
+
+      var alist = document.querySelectorAll('a');
+      var i = 0;
+      while(i < alist.length){
+        alist[i].style.color='blue';
+        i = i + 1;
+    }
+  }
+    ">
+    <h2>
+    <ol>
+      <li><a href="2.html">20대에 자산관리 시작해야 하는이유</a></li>
+      <li><a href="3.html">투자, 어떻게 시작해야하나?</a></li>
+      <li><a href="4.html">미국 Etf vs 국내 Etf</a></li>
+    </ol>
+</h2>
+<p>
+ 연말 마지막 장이 닫히기 하루 전에 각 기업의 주식을 소유하고 있는 주주들에게
+  기업들은 일년간 그 기업이 벌어들인 금액의 일정 부분을 소유주에 비례하여 다음 해 4월달 경 지급합니다.
+연초 시장에서 해당 주식을 매도하더라도, 연말 주식 소유주 리스트에 올라와 있다면 배당금은 동일하게 받을 수 있습니다.
+이 배당금 때문에 연초 주식 매도량이 많아져 연초에는 해당 주식 가치가 떨어지는 배당락이라는 현상이 발생할 수있는데, 가치 1000억 이상의 큰 기업들은 이런 것이 덜한 편입니다.
+</p>
+  </body>
+</html>
